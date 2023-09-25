@@ -17,7 +17,7 @@ Pembahasan Materi :
 
 Selain object, dalam Object Oriented Programming juga dikenal class. Class merupakan cetakan/template dari object dan object merupakan hasil cetakan atau wujud dari class. Berikut merupakan penulisan kode program dari deklarasi object dan class :
 
-```bash
+```java
 // Penulisan Class :  class <NamaClass>
 class NamaClass{ // <-- Deklarasi Class (Class harus ada di atas class utama)
   // Statement
@@ -35,7 +35,7 @@ Dengan menggunakan class, dapat dilakukan pengelompokan berbagai jenis yang data
 
 Atribut merupakan nilai atau kumpulkan nilai yang dimiliki oleh dan dituliskan di dalam class. Mudahnya atribut dapat diilustrasikan sebagai ciri-ciri yang mempresentasikan karakteristik dari object. Berikut contoh penulisan atribut dalam bahasa Java :
 
-```bash
+```java
 class NamaClass{
      // Deklarasi Atribut (seluruh atribut akan dimiliki oleh tiap object yang dideklarasikan)
      int nomor; // Penulisan atribut : <modifier> (opsional) <TipeData> <NamaAtribut>
@@ -61,7 +61,7 @@ public class NamaFile{ // <-- Nama class pada class utama harus sama dengan nama
 
 Method merupakan perilaku dari object. Perilaku ini berupa statement program yang dituliskan dalam bentuk fungsi atau prosedur untuk melakukan pengolahan nilai atau tidak. Mudahnya method merupakan function atau procedur yang dituliskan/dimiliki oleh class. Berikut merupakan penulisan method di dalam class :
 
-```bash
+```java
 class NamaClass{
    int nomor1,nomor2;
 // Penulisan method : <TipeData> <NamaMethod> (<TipeData Parameter> <NamaParameter (Opsional)){ <Statement> }
@@ -92,7 +92,7 @@ public class NamaaFile {
 
 Berikut merupakan contoh dari penulisan OOP dalam bahasa Java :
 
-```bash
+```java
 class Manusia{
     String warnaRambut, warnaKulit, nama; // <--- Atribut (berupa variabel)
     int Umur;
