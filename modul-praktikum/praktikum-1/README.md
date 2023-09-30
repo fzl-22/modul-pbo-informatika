@@ -233,29 +233,35 @@ public class NamaFile{ // <-- Nama class pada class utama harus sama dengan nama
 Method merupakan perilaku dari object. Perilaku ini berupa statement program yang dituliskan dalam bentuk fungsi atau prosedur untuk melakukan pengolahan nilai atau tidak. Mudahnya method merupakan function atau procedur yang dituliskan/dimiliki oleh class. Berikut merupakan penulisan method di dalam class :
 
 ```java
-class NamaClass{
-    int nomor1, nomor2;
-    // Penulisan method : <TipeData> <NamaMethod> (<TipeData Parameter> <NamaParameter (Opsional)){ <Statement> }
-    void tampilkanNomor(){ // <--- Method dalam bentuk prosedur tanpa melakukan pengolahan data
-        System.out.printf("Nomer 1 : %d dan Nomer 2 : %d\n", nomor1, nomor2);
-    }
-    int tambahkanNomor(){  // <--- Method dalam bentuk fungsi dan melakukan pengolahan data
-        return nomor1 + nomor2;
-    }
+class NomerClass{
+   int nomor1, nomor2;
+
+  // Penulisan method : <TipeData> <NamaMethod> (<TipeData Parameter> <NamaParameter (Opsional)){ <Statement> }
+  int TambahkanNomor(){  // <--- Method dalam bentuk fungsi dan melakukan pengolahan data
+      return nomor1 + nomor2;
+   }
+
+   void TampilkanNomor(){ // <--- Method dalam bentuk prosedur tanpa melakukan pengolahan data
+      System.out.printf("Nomer 1 : %d dan Nomer 2 : %d\n",nomor1,nomor2);
+   }
+  
 }
 
-public class NamaFile {
+public class NamaFile { // < --- nama file disamakan dengan dengan nama file yang ada di src
     public static void main(String[] args) {
-        NamaClass namaObject = new NamaClass();
-        namaObject.nomor1 = 1;
-        namaObject.nomor2 = 2;
+        NomerClass MantanTerindah = new NomerClass(); // <-- NomerClass diambil dari nama class yang ada di atas public class
+        // initsialisasi value attribut yang ada dalam class
+        MantanTerindah.nomor1 = 1;
+        MantanTerindah.nomor2 = 2;
+
+        
+        int hasil = MantanTerindah.TambahkanNomor(); // variabel hasil akan menyimpan return value/nilai kembalian dari method
+        System.out.printf("Hasil dari penjumlahan = %d\n", hasil);
+        // Atau dapat langsung ditampilkan seperti ini :
+        System.out.printf("Hasil dari penjumlahan = %d\n", MantanTerindah.TambahkanNomor()); // Hasil dari pemanggilan method akan ditampung oleh %d
 
         // Melakukan pemanggilan/penggunaan method :
-        namaObject.tampilkanNomor();
-        int hasil = namaObject.tambahkanNomor(); // variabel hasil akan menyimpan return value/nilai kembalian dari method
-        
-        // Atau dapat langsung ditampilkan seperti ini :
-        System.out.printf("Hasil dari penjumlahan = %d\n", namaObject.tambahkanNomor()); // Hasil dari pemanggilan method akan ditampung oleh %d
+        MantanTerindah.TampilkanNomor();
     }
 }
 ```
@@ -267,7 +273,11 @@ Berikut merupakan contoh dari penulisan OOP dalam bahasa Java :
 ```java
 class Manusia{
     String warnaRambut, warnaKulit, nama; // <--- Atribut (berupa variabel)
-    int umur;
+    int Umur;
+
+    int tampilUmur(){   // <--- Method dalam bentuk fungsi (dengan nilai kembalian)
+      return Umur;
+    }
 
     void tampilCiri(){ // <--- Method dalam bentuk prosedur (tanpa nilai kembalian)
         System.out.println("Nama : " + nama);
@@ -275,10 +285,7 @@ class Manusia{
         System.out.println("Warna Rambut : " + warnaRambut);
         System.out.println("Umur : " + tampilUmur());
     }
-    
-    int tampilUmur(){   // <--- Method dalam bentuk fungsi (dengan nilai kembalian)
-        return umur;
-    }
+  
 }
 
 /*
@@ -290,6 +297,18 @@ public class Pertama {
     public static void main(String[] args) {
         Manusia mantanTerindah = new Manusia(); // Struktur : NamaClass NamaObject = new NamaObject();
         Manusia bismillahJodoh = new Manusia();
+
+        // Inisialisasi value attribut yang  ada dalam class Manusia
+        mantanTerindah.nama = "Fakhri";
+        mantanTerindah.warnaKulit = "Sawo Matang";
+        mantanTerindah.warnaRambut = "Hitam";
+        mantanTerindah.Umur = 22;
+
+        bismillahJodoh.nama = "Member JKT48";
+        bismillahJodoh.warnaKulit = "Putih";
+        bismillahJodoh.warnaRambut = "Coklat";
+        bismillahJodoh.Umur = 21;
+
         // Cara Memanggil Method :
         mantanTerindah.tampilCiri();
         bismillahJodoh.tampilCiri();
