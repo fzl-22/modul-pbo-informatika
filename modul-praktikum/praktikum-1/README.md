@@ -236,7 +236,7 @@ Method merupakan perilaku dari object. Perilaku ini berupa statement program yan
 class NomerClass{
    int nomor1, nomor2;
 
-// Penulisan method : <TipeData> <NamaMethod> (<TipeData Parameter> <NamaParameter (Opsional)){ <Statement> }
+  // Penulisan method : <TipeData> <NamaMethod> (<TipeData Parameter> <NamaParameter (Opsional)){ <Statement> }
   int TambahkanNomor(){  // <--- Method dalam bentuk fungsi dan melakukan pengolahan data
       return nomor1 + nomor2;
    }
@@ -307,7 +307,7 @@ public class Pertama {
         bismillahJodoh.nama = "Member JKT48";
         bismillahJodoh.warnaKulit = "Putih";
         bismillahJodoh.warnaRambut = "Coklat";
-        bismillahJodoh.Umur = 17;
+        bismillahJodoh.Umur = 21;
 
         // Cara Memanggil Method :
         mantanTerindah.tampilCiri();
