@@ -278,6 +278,8 @@ class BelajarJava {
 
 Masing-masing modifier akan menentukan di mana saja member bisa diakses. Berikut ini tabel jangkauan untuk masing-masing modifier:
 
+![My Image](assets/modifier.jpg)
+
 Keterangan:
 
 **Y artinya bisa diakses;**
