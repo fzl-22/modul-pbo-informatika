@@ -9,6 +9,8 @@ Pembahasa materi :
 ### 1.1 Pengertian Dasar
 **Class** adalah cetak biru atau blueprint dari object. Class bertugas untuk mengumpulkan prosedur/fungsi dan variabel dalam satu tempat. Sebagai analogi, class bisa diibaratkan dengan Handphone, yakni gambaran umum tentang sebuah benda.
 
+![My Image](assets/java-class-objects.jpg)
+
 Berikut adalah contoh penulisan class dalam bahasa Java:
 
 
