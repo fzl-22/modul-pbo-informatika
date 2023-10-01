@@ -223,6 +223,8 @@ Save dan coba eksekusi Game.java
 ### 2.1 Pengertian Dasar
 **Constructor** adalah method khusus yang dijalankan secara otomatis pada saat sebuah object dibuat, yakni saat proses instansiasi. Dalam bahasa Java, constructor dibuat dengan cara menulis sebuah method yang namanya sama dengan nama class. Sebagai contoh jika kita memiliki class Laptop, maka function constructor juga harus bernama `Laptop()`. Sebuah constructor tidak mengembalikan nilai sehingga tidak perlu menulis tipe data sebelum nama function. Constructor juga harus memiliki hak akses public, yang apabila tidak ditulis dianggap public secara default.
 
+![My Image](assets/java-constructor.jpg)
+
 ### 2.2 Pembuatan Constructor
 ```java
 class Laptop {
@@ -356,6 +358,8 @@ Contoh :
 
 1. mendeklarasikan variabel/atribut kelas sebagai private
 2. menyediakan metode get dan set publik untuk mengakses dan memperbarui nilai private variabel
+
+![My Image](assets/Encapsulation.jpg)
 
 Untuk menyediakan metode get dan set kita akan menggunakan metode `setter dan getter`. Method setter dan getter adalah dua method yang tugasnya untuk mengambil dan mengisi data ke dalam objek.
 
