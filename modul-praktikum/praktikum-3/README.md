@@ -249,10 +249,10 @@ public class Python extends ProgrammingLanguage {
 
 File `Main.java`:
 ```Java
-public class SimplePolymorphism {
+public class Main {
 
   public static void main(String[] args) {
-      // Biasanya, kita hanya membuat object baru dengan tipe yang sama dengan reference variable-nya
+    // Biasanya, kita hanya membuat object baru dengan tipe yang sama dengan reference variable-nya
     ProgrammingLanguage programmingLanguage = new ProgrammingLanguage();
     programmingLanguage.display();
 
