@@ -109,6 +109,4 @@ public class Main {
 
 ### Soal :
 
-```bash
-Buatlah subclass baru bernama Triangle dan override methode draw() dan calculateArea() dengan mengimplementasikan rumus segitiga didalamnya.
-```
+Buatlah subclass baru bernama Triangle dan override methode `draw()` dan `calculateArea()` dengan mengimplementasikan `rumus segitiga` didalamnya.
