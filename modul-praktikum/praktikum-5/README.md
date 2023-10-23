@@ -115,7 +115,7 @@ Saat deklarasi abstract class dan interface digunakan modifier public. Hal ini b
 #### Contoh : 
 Ketik dan jalankan kode program di bawah ini.
 
-#### Kode program `abstract class Hewan` : 
+#### Kode program `Interface Operasi` : 
 
 ```java
 Interface Operasi {
