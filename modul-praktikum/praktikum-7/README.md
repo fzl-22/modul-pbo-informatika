@@ -6,7 +6,7 @@ Object lifetime dan resource management erat kaitannya dengan garbage collection
 
 ## Contoh konsep daur hidup objek dan manajemen sumber daya :
 
-#### Object Lifetime:
+## Object Lifetime:
 
 - `Creation`: Objek dibuat menggunakan operator new atau melalui factory methods.
 
@@ -16,13 +16,61 @@ Object lifetime dan resource management erat kaitannya dengan garbage collection
 
 - `Disposal`: Objek dihancurkan saat tidak lagi dibutuhkan.
 
-#### Resource Management:
+### initializeData (Inisialisasi Data):
+
+Metode initializeData digunakan untuk memberikan nilai awal atau menginisialisasi data objek. Ini adalah langkah yang umumnya dilakukan setelah objek dibuat dan sebelum objek digunakan untuk menjalankan tugas tertentu.
+
+### performTask (Melakukan Tugas):
+
+Metode performTask digunakan untuk menjalankan tugas atau operasi tertentu yang diinginkan oleh objek. Setelah objek diinisialisasi, metode ini memungkinkan objek untuk berpartisipasi dalam fungsionalitas aplikasi secara lebih spesifik.
+
+#### contoh
+
+```java
+class Lifecycle {
+    private String data;
+
+    // Metode untuk menjalankan tugas/operasi
+    public void performTask() {
+        if (data != null) {
+            System.out.println("Melakukan tugas dengan data: " + data);
+        } else {
+            System.out.println("Data belum diinisialisasi.");
+        }
+    }
+    public void initializeData() {
+        data = "Nilai Awal";  // Inisialisasi data dengan nilai awal
+        System.out.println("Data diinisialisasi: " + data);
+    }
+}
+```
+
+#### Penggunaan
+
+```java
+public class ObjectLifeCycleExample {
+    public static void main(String[] args) {
+        // Pembuatan objek
+        Lifecycle obj = new Lifecycle();
+
+        // Inisialisasi data objek
+        obj.initializeData();
+
+        // Melakukan tugas dengan objek
+        obj.performTask();
+    }
+}
+```
+
+Dalam contoh diatas, siklus hidup objek dimulai dengan pembuatan objek Lifecycle, diikuti oleh inisialisasi data dengan memanggil initializeData, dan kemudian objek digunakan untuk menjalankan tugas dengan memanggil performTask.
+
+## Resource Management:
 
 - `Sumber Daya Eksternal`: Objek mungkin memiliki sumber daya eksternal seperti file, koneksi database, atau socket.
 
 - `Pembebasan Sumber Daya`: Pembebasan sumber daya eksternal (seperti menutup file atau melepaskan koneksi database) penting untuk mencegah kebocoran sumber daya.
 
-#### Garbage Collection:
+## Garbage Collection:
 
 - `Tujuan Utama`: Mencegah kebocoran memori dengan mengidentifikasi dan menghapus objek yang tidak lagi dapat dijangkau oleh program.
   Objek yang Tidak Lagi Dibutuhkan: Garbage collector mengenali objek yang tidak lagi diakses atau dirujuk oleh program dan menghapusnya dari memori.
