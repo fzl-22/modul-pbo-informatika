@@ -105,7 +105,7 @@ System.gc(); // Meminta JVM untuk menjalankan garbage collection
 
 ## Pengimplementasian & Contoh Code :
 
-### Object Lifecycle
+### Object Lifecycles
 
 ```java
 class MyClass {
