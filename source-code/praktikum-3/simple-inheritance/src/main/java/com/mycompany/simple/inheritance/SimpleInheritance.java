@@ -15,25 +15,47 @@ import com.mycompany.simple.inheritance.classes.Surgeon;
  */
 public class SimpleInheritance {
 
-	public static void main(String[] args) {
-		// Instansiasi class Doctor
-		// 1. Kenapa atribute pada kelas Doctor tidak bisa diakses?
-		Doctor doctor = new Doctor(true);
-		doctor.setWorksAtHospital(false);
-		System.out.println("Doctor: " + doctor.getWorksAtHospital());
-		doctor.treatPatient();
-
-		// Instansiasi kelas FamilyDoctor
-		// 2. Kenapa setWorksAtHospital juga bisa diakses di subclass?
-		FamilyDoctor familyDoctor = new FamilyDoctor(false, true);
-		familyDoctor.setWorksAtHospital(true);
-		System.out.println("FamilyDoctor: " + familyDoctor.getWorksAtHospital());
-		System.out.println("FamilyDoctor: " + familyDoctor.getMakeHouseCalls());
-
-		// Instansiasi kelas Surgeon
-		// 3. Kenapa method treatPatient di object surgeon berbeda dengan object doctor?
-		Surgeon surgeon = new Surgeon(true);
-		surgeon.treatPatient();
-		surgeon.makeIncision();
-	}
+    public static void main(String[] args) {
+        Doctor doctor = new Doctor(true);
+        doctor.setWorksAtHospital(false);
+        System.out.println("Doctor: " + doctor.getWorksAtHospital());
+        doctor.treatPatient();
+        
+        System.out.println("");
+        
+        FamilyDoctor familyDoctor = new FamilyDoctor(false, true);
+        familyDoctor.setWorksAtHospital(true);
+        System.out.println("FamilyDoctor: " + familyDoctor.getWorksAtHospital());
+        System.out.println("FamilyDoctor: " + familyDoctor.getMakeHouseCalls());
+        familyDoctor.treatPatient();
+        familyDoctor.giveAdvice();
+        
+        System.out.println("");
+        
+        Surgeon surgeon = new Surgeon(true);
+        surgeon.treatPatient();
+        surgeon.makeIncision();
+    }
+		
 }
+
+// Instansiasi class Doctor
+//		// 1. Kenapa atribute pada kelas Doctor tidak bisa diakses?
+//		Doctor doctor = new Doctor(true);
+//		doctor.setWorksAtHospital(false);
+//		System.out.println("Doctor: " + doctor.getWorksAtHospital());
+//		doctor.treatPatient();
+//
+//		// Instansiasi kelas FamilyDoctor
+//		// 2. Kenapa setWorksAtHospital juga bisa diakses di subclass?
+//		FamilyDoctor familyDoctor = new FamilyDoctor(false, true);
+//		familyDoctor.setWorksAtHospital(true);
+//		System.out.println("FamilyDoctor: " + familyDoctor.getWorksAtHospital());
+//		System.out.println("FamilyDoctor: " + familyDoctor.getMakeHouseCalls());
+//
+//		// Instansiasi kelas Surgeon
+//		// 3. Kenapa method treatPatient di object surgeon berbeda dengan object doctor?
+//		Surgeon surgeon = new Surgeon(true);
+//		surgeon.treatPatient();
+//		surgeon.makeIncision();
+//	}
