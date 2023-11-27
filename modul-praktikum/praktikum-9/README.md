@@ -95,6 +95,8 @@ Iterator merupakan interface yang menyediakan cara untuk melakukan iterasi eleme
 | `E` | `next` | Mengembalikan nilai elemen selanjutnya pada iterasi |
 | `default void` | `remove` | Menghapus elemen yang sedang diiterasi oleh iterator saat ini (jarang digunakan) |
 
+**Catatan**: `E` merupakan generic type, jadi disesuaikan dengan tipe data dari collection yang ingin diiterasi.
+
 Sebagai contoh, perhatikan dan coba source code berikut:
 
 ```java
