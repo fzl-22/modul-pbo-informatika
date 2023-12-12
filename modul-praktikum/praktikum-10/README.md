@@ -59,7 +59,7 @@ Untuk menjalankan tugas dari thread, silakan jalankan method `start()`
 File `classes/Runner.java`:
 
 ```java
-public class Runner extends Runnable{
+public class Runner implements Runnable{
   @Override
   public void run() {
     for (int i = 0; i < 10; i++) {
