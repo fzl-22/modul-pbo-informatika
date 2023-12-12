@@ -70,19 +70,23 @@ Driver NetBeans sendiri bisa Anda dapatkan melalui website resmi NetBeans.
 
 ### Tahap 3, install NetBeans
 Buka driver installer NetBeans yang telah Anda unduh. Setelah muncul jendela Welcome to the Apache NetBeans Installer, klik Next.
-![Alt text](image.png)
+
+![image](<./assets/image.png>)
 
 Baca lisensi persetujuan dengan baik, kemudian tandai I accept the terms in the license agreement. Setelah itu klik Next.
-![Alt text](image-1.png)
+
+![image](<./assets/image-1.png>)
 
 Pilih lokasi instalasi pada kolom Install the Apache NetBeans IDE to: kemudian klik Next.
-![Alt text](image-2.png)
+![image](<./assets/image-2.png>)
 
 Izinkan auto-update dengan menandai Check for Updates. Jika sudah, klik Install.
-![Alt text](image-3.png)
+
+![image](<./assets/image-3.png>)
 
 Tunggu proses instalasi selesai, kemudian klik Finish.
-![Alt text](image-4.png)
+
+![image](<./assets/image-4.png>)
 
 ## 2. Maven vs Ant vs Gradle
 ### Maven
@@ -147,13 +151,16 @@ Kinerja yang baik.
 ## 3. Java GUI Dasar Netbeans
 ### Membuat Project
 Pertama silahkan buka dulu Netbeans IDE nya, dan akan terlihat tampilan awal seperti pada contoh Gambar di bawah ini.
-![Alt text](image-5.png)
+
+![image](<./assets/image-5.png>)
 
 Selanjutnya kita mulai untuk membuat Project nya dengan cara klik menu File lalu klik New Project maka akan tampil seperti pada contoh Gambar di bawah ini.
-![Alt text](image-6.png)
+
+![image](<./assets/image-6.png>)
 
 Pada bagian Categories pilih Java dan pada bagian Project pilih Java Application. Selanjutnya klik Next, maka akan terlihat tampilan seperti contoh di bawah ini.
-![Alt text](image-7.png)
+
+![image](<./assets/image-7.png>)
 
 Keterangan:
 - Project Name: Untuk memberi Nama project yang akan kita buat.
@@ -167,20 +174,24 @@ Setelah kita membuat projectnya selanjutnya kita buat dulu JFrame Form yang nant
 **Caranya:****
 
 Klik kanan pada package kita, di contoh ini nama package saya adalah tampilan, silahkan sesuaikan dengan punya kalian jika kalian sudah punya package yang berbeda.
-![Alt text](image-9.png)
+
+![image](<./assets/image-9.png>)
+
 
 jika dari New File silahkan kalian klik Swing GUI Forms. Setelah itu lihat pada bagian File Types, silahkan pilih JFrame Form lalu klik Next.
-![Alt text](image-10.png)
+
+![image](<./assets/image-10.png>)
 
 Setelah kita memilih JFrame Form, selanjutnya kita beri nama JFrame Formnya. Untuk namanya bebas sesuka kalian atau sesuaikan dengan apa yang ingin kalian buat. Jika sudah maka akan muncul tampilan seperti pada contoh gambar di bawah ini.
-![Alt text](image-11.png)
+
+![image](<./assets/image-11.png>)
 
 ### Membuat Tampilan GUI
 Pada langkah ini kita akan memulai membuat tampilannya. Perhatikan pada bagian sebelah kanan yang saya beri tanda.
 
 **Swing Containers**
 
-![Alt text](image-13.png)
+![image](<./assets/image-13.png>)
 
 - **Panel** : Digunakan sebagai papan dari suatu bidang / layar lain.
 - **Split Pane** : 2 tombol yang tebagi menjadi 2 sisi (kiri & kanan).
@@ -193,7 +204,7 @@ Pada langkah ini kita akan memulai membuat tampilannya. Perhatikan pada bagian s
 
 **Swing Controls**
 
-![Alt text](image-14.png)
+![image](<./assets/image-14.png>)
 
 - **Label** : Sebuah kolom/area yang digunakan untuk menampilkan tulisan atau gambar.
 - **Toggle Button** : Tombol untuk (ON/OFF).
@@ -218,7 +229,7 @@ Pada langkah ini kita akan memulai membuat tampilannya. Perhatikan pada bagian s
 
 **Swing Menus**
 
-![Alt text](image-15.png)
+![image](<./assets/image-15.png>)
 
 - **Menu Bar** : Komponen untuk menampilkan menu dan item menu.
 - **Menu** : Sebuah menu tunggal, bisa digunakan sebagai menu utama jika disisipkan submenu.
@@ -230,7 +241,7 @@ Pada langkah ini kita akan memulai membuat tampilannya. Perhatikan pada bagian s
 
 **Swing Windows**
 
-![Alt text](image-16.png)
+![image](<./assets/image-16.png>)
 
 - **Dialog** : Jendela yang digunakan menampilkan dialog.
 - **Color Chooser** : Jendela baru yang digunakan untuk memilih warna / memanipulasi.
@@ -240,7 +251,8 @@ Pada langkah ini kita akan memulai membuat tampilannya. Perhatikan pada bagian s
 
 **Swing Fillers**
 
-![Alt text](image-17.png)
+![image](<./assets/image-17.png>)
+
 - **Glue** : Komponen yang tersedia untuk menggerakkan ke arah vertikal & horizontal.
 - **Horizontal Strut** : Komponen yang memiliki lebar pasti dan dapat bergerak ke arah horizontal.
 - **Vertical Glue** : Komponen yang memiliki lebar bebas & dapat bergerak ke arah vertikal.
@@ -252,7 +264,7 @@ Dalam pemrograman Java, khususnya dalam pengembangan antarmuka pengguna grafis (
 
 **Properties:**
 
-![Alt text](image-18.png)
+![image](<./assets/image-18.png>)
 
 - **Title (Judul)**: Properti ini menentukan judul jendela. Anda dapat mengaturnya menggunakan metode setTitle().
 - **Size (Ukuran)**: Properti ini mengatur ukuran jendela. Anda dapat mengaturnya menggunakan metode setSize().
@@ -279,26 +291,32 @@ frame.addWindowListener(new WindowAdapter() {
 });
 ```
 **Listener Yang Sering Digunakan**
-![Alt text](image-19.png)
+
+![image](<./assets/image-19.png>)
 
 **Daftar Listener Lengkap**
 
 **Listener (Semua Komponen Swing)**
-![Alt text](image-20.png)
-![Alt text](image-21.png)
-![Alt text](image-24.png)
+
+![image](<./assets/image-20.png>)
+![image](<./assets/image-21.png>)
+![image](<./assets/image-24.png>)
 
 **Listener API Table 1**
-![Alt text](image-23.png)
+
+![image](<./assets/image-23.png>)
 
 **Listener API Table 2**
-![Alt text](image-25.png)
+
+![image](<./assets/image-25.png>)
 
 **Listener API Table 3**
-![Alt text](image-26.png)
+
+![image](<./assets/image-26.png>)
 
 **Listener API Table 4**
-![Alt text](image-27.png)
+
+![image](<./assets/image-27.png>)
 
 **Code:**
 - **Menampilkan Jendela**: Untuk menampilkan jendela, Anda perlu menggunakan metode setVisible(true). Tanpa baris ini, jendela tidak akan muncul.
@@ -320,15 +338,15 @@ Buatlah design seperti data mahasiswa diatas dengan menggunakan :
 7. 2 buah JButton
 8. 7 buah Jlabel
 
-![Alt text](image-28.png)
+![image](<./assets/image-28.png>)
 
 Klik Kanan Pada setiap Swing pilih Change Variable Name setelah itu ubah nama klik ok, dan klik kanan lagi lalu pilih Edit Text,sesuaikan nama variabel dan text seperti pada gambar berikut:
 
-![Alt text](image-29.png)
+![image](<./assets/image-29.png>)
 
 Kemudian anda dapat memberikan variabel pada source code dengan cara klik source dan ketikan syntax berikut tepat di bawah class yang anda buat.
 
-![Alt text](image-30.png)
+![image](<./assets/image-30.png>)
 
 Kemudian kembali ke Design dan double klik pada cmdtampil atau klik kanan, kemudian pilih Event | Action | actionPerformed. Maka anda akan masuk pada bagian coding / source code. Dan ketikan syntax berikut:
 
@@ -359,31 +377,38 @@ private void cmdtampilActionPerformed (java.awt.event.ActionEvent evt) {
 }
 ```
 Dan pada cmdbersih lakukan hal yang sama dan ketikan syntax berikut.
-![Alt text](image-32.png)
+
+![image](<./assets/image-32.png>)
 
 Jika sudah maka project anda siap di compile dan di run.maka program anda akan tampil seperti gambar berikut dan silahkan diisi data anda dan klik Tampilkan.
-![Alt text](image-33.png)
+
+![image](<./assets/image-33.png>)
 
 ### 2. Latihan JTabPane, JTree, JTable
 
 Dalam Pembuatan JTabPane lakukan hal yang sama new project hingga new frame kemudian pilih Design lalu drag & drop JtabPane, seperti pada gambar berikut.
 
-![Alt text](image-34.png)
+![image](<./assets/image-34.png>)
 
 Setelah itu Drag & Drop Panel kedalam JTabPane maka Tab berhasil di buat.lakukan drag & drop panel hingga JTabPane memiliki 3 Tab. Setelah itu anda dapat mengedit Text pada Tab tersebut dengan cara yang sama yaitu klik kanan pada tab tersebut dan Edit Text. Ubahlah menjadi Halaman1 , Halaman 2 dan Halaman Akhir. Pada pada halaman 1 anda dapat memberikan JLabel untuk menandai ini halaman1. Sedangkan pada halaman2 anda dapat memberikan JTabel dengan cara darg & drop Jtabel ke Halaman2, dan pada halaman 3 anda dapat memberikan JTree. Kemudian anda dapat klik kanan pada JTree dan pilih Property selanjutnya klik pada Model kemudian klik titik2 pada bagian kanan model “…” Maka akan muncul jendela baru Dan hapus semua item di kolom sebelah kiri seperti gambar berikut.
-![Alt text](image-35.png)
+
+![image](<./assets/image-35.png>)
 
 Kemudian tambahkan 1 buah Jlabel, 1 buah JTextField, dan 1 buah JButton, seperti yang ditampilkan pada gambar berikut:
-![Alt text](image-36.png)
+
+![image](<./assets/image-36.png>)
 
 Kemudian double klik pada Jbutton atau klik kanan, kemudian pilih Event | Action | actionPerformed. Maka anda akan masuk pada bagian coding / source code. Dan ketikan syntax berikut.
-![Alt text](image-37.png)
+
+![image](<./assets/image-37.png>)
 
 Setelah itu Anda dapat Compile dan Run Project Anda, maka akan tampil sebagai berikut.
-![Alt text](image-38.png)
+
+![image](<./assets/image-38.png>)
 
 Pilih Halaman Akhir dan Klik pada Jtree ROOT. Dan ketikan anak pertama pada JTextField. Dan klik Tambah. Maka Jtree anda akan bertambah seperti pada gambar berikut.
-![Alt text](image-39.png)
+
+![image](<./assets/image-39.png>)
 
 ## 5. Database Connection
 
@@ -424,34 +449,42 @@ Sekarang kita sudah punya sebuah tabel dengan nama MAHASISWA. Saatnya kita lanju
 **3. Membuat Project**
 
 Sama seperti sebelumnya, untuk membuat sebuah project dalam NetBeans IDE kita dapat membuatnya menggunakan menu File −> New Project. Setelah itu pilih kategori Java dan pilih tipe project−nya Java Application.
-![Alt text](image-40.png)
+
+![image](<./assets/image-40.png>)
 
 Klik Next untuk melanjutkan pembuatan project.
-![Alt text](image-41.png)
+
+![image](<./assets/image-41.png>)
 
 Beri nama project dan jangan diceklis ceckbox Create Main Class. Hal ini dikarenakan kita tidak memerlukan dahulu membuat sebuah Main Class. Setelah itu klik tombol Finish, sekarang kita telah membuat project Java menggunakan NetBeans IDE.
 
 **4. Membuat Koneksi MySQL**
 
 Setelah membuat project, saatnya membuat koneksi ke database UNIVERSITAS yang telah kita buat sebelumnya. Jadi hal yang pertama kitalakukan adalah menambah driver MySQL ke dalam project yang telah kita buat. Caranya klik kanan bagian Libraries project yang telah kita buat lalu pilih Add Library.
-![Alt text](image-42.png)
+
+![image](<./assets/image-42.png>)
 
 Setelah keluar dialog Add Library, pilih MySQL JDBC Driver lalu klik tombol Add Library untuk menambahkan MySQL Driver kedalam project. Setelah menambahkan driver MySQL, sekarang saatnya membuat sebuah kelas yang akan kita gunakan untuk melakukan koneksi ke database MySQL. Tapi sebelum membuat sebuah kelas, pastikan kita membuat package dulu,caranya klik kanan bagian Source project yang telah kita buat lalu pilih Next −> Other.
-![Alt text](image-43.png)
+
+![image](<./assets/image-43.png>)
 
 Setelah keluar dialog Next File, pilih kategori Java dan jenis file Java Package. Klik Next untuk melanjutkan membuat package.
-![Alt text](image-44.png)
+
+![image](<./assets/image-44.png>)
 
 Setelah itu beri nama packagenya, misal program.universitas, setelah itu klik Finish untuk membuat package−nya.
 
 Setelah membuat package program.universitas, sekarang kita buat sebuah kelas untuk melakukan koneksi ke MySQL. Caranya klik kanan packageprogram.universitas lalu pilih Next −> Other.
-![Alt text](image-45.png)
+
+![image](<./assets/image-45.png>)
 
 Pilih kategori Java dan tipe filenya Java Class, setelah itu klik tombol Next untuk melanjutkan membuat sebuah kelas.
-![Alt text](image-46.png)
+
+![image](<./assets/image-46.png>)
 
 Beri nama kelas tersebut, misal KoneksiDatabase, setelah itu klik Finish agar kelas KoneksiDatabase terbuat.
-![Alt text](image-47.png)
+
+![image](<./assets/image-47.png>)
 
 Sekarang, saatnya melakukan proses pengkodean. Pertama buat sebuah variabel static yang bertipe java.sql.Connection, kita menggunakan static agar nanti aplikasi dapat mengakses koneksi secara langsung tanpa harus membuat object KoneksiDatabase.
 ```java
@@ -505,69 +538,89 @@ Sekarang, kita telah selesai membuat sebuah kelas untuk melakukan proses koneksi
 **5. Membuat Form Aplikasi**
 
 Pada program sederhana ini, kita tidak akan membuat program berbasis terminal (command line) lagi, tapi kita akan membuat aplikasi berbasis GUI. Dalam java teknologi untuk membuat program berbasis GUI disebut Java Swing. Sekarang untuk membuat sebuah Form, kita harus membuat JFrame, caranya dengan klik kanan package program.universitas, lalu pilih New −> Other.
-![Alt text](image-48.png)
+
+![image](<./assets/image-48.png>)
 
 Pilih kategori String GUI Forms dan pilih tipe file JFrame Form. Lalu klik Nest untuk melanjutkan membuat Form.
-![Alt text](image-49.png)
+
+![image](<./assets/image-49.png>)
 
 Beri nama Form tersebut, misal dengan nama Form, dengan begitu maka NetBeans akan membuatkan sebuah kelas dengan nama Form yang merupakan turunan dari kelas JFrame, dimana kelas JFrame ini merupakan kelas Java Swing.
 
 Sekarang kita dapat melihat GUI builder pada editor NetBeans dan disebelah kanannya terdapat Pallete yang merupakan komponen−komponen GUI yang ada di Java danProperties yang merupakan editor atribut−atribut komponen yang kita klik pada GUI Builder.
-![Alt text](image-50.png)
+
+![image](<./assets/image-50.png>)
 
 Untuk menambahkan komponen−komponen GUI lainnya, kita cukup mengklik dan mendrag salah satu komponen yang ada dalam Pallete ke dalam Form. Misal kita klik dan drag sebuah Label dari Pallete.
-![Alt text](image-51.png)
-![Alt text](image-52.png)
+
+![image](<./assets/image-51.png>)
+![image](<./assets/image-52.png>)
 
 Untuk mengubah tulisan pada Label, kita dapat mengklik label teresebut, lalu lihat pada bagian Properties. Ubah atribut Text, misal menjadi NIM, Nama, Tanggal Lahir, Jurusan dan Alamat.
-![Alt text](image-53.png)
+
+![image](<./assets/image-53.png>)
 
 Setelah itu klik dan drag tiga buat Text Field yang ada dipallete ke Form, gunakan Text Field untuk Nim, Nama dan Jurusan.
-![Alt text](image-54.png)
+
+![image](<./assets/image-54.png>)
+
 Untuk Tanggal Lahir dan Alamat kita tidak menggunakan Text Field, hal ini dikarenakan Tanggal Lahir memerlukan inputan berupa tanggal sedangkan Text Field hanya mendukung teks (string), sedangkan untuk Alamat, biasanya isi alamat itu panjang, sehingga lebih tidak cocok menggunakan Text Field, karena Text Field hanya mendukung satu baris.
 
 Dengan demikian, untuk Tanggal Lahir kita akan menggunakan Formatted Field, tinggal kita klik dan drag Formatted Field dari Palette ke dalam Form.
-![Alt text](image-55.png)
+
+![image](<./assets/image-55.png>)
 
 Dan untuk Alamat, gunakan komponen Text Area. Text Area hampir mirip dengan Text Field, namun mendukung lebih dari satu baris.
-![Alt text](image-56.png)
+
+![image](<./assets/image-56.png>)
 
 Untuk mengosongkan isi tulisan pada NIM, Nama, Tanggal Lahir dan Jurusan, kosongkan atribut Text pada setiap komponen pada Properties−nya.
-![Alt text](image-57.png)
+
+![image](<./assets/image-57.png>)
 
 Setelah itu, sekarang saatnya kita mengubah setiap nama variabel komponenya, misal untuk Text Field NIM kita beri nama variabelnya dengan nama inputNim, untuk Text Field Nama dengan nama inputNama dan seterusnya, caranya dengan mengklik kanan komponenya lalu pilih menu Change Variable Name.
-![Alt text](image-58.png)
+
+![image](<./assets/image-58.png>)
 
 Untuk melihat seluruh nama variabelnya, kita dapat melihatnya pada bagian Inspector di sebelah kiri bawah Form NetBeans.
-![Alt text](image-59.png)
+
+![image](<./assets/image-59.png>)
 
 Secara default Formatted Field seperti Text Field, dia hanya menerima teks (String), agar Formatted Field hanya menerima input berupa tanggal, maka kita perlu memberitahukannya ke Formatted Field nya, caranya klik inputTanggalLahir, lalu pada bagian Properties, cari atribut formatterFactory, ubah atribut tersebut.
-![Alt text](image-60.png)
+
+![image](<./assets/image-60.png>)
 
 Pada saat mengklik tombol [...] pada atribut formatterFactory, maka akan muncul dialog formatterFactory.
-![Alt text](image-61.png)
+
+![image](<./assets/image-61.png>)
 
 Agar Formatted Field hanya meneripa input tanggal, maka ubah kategorinya menjadi date, formatnya menjadi custom, lalu pada input Format beri teks “d/M/yyyy”.
-![Alt text](image-62.png)
+
+![image](<./assets/image-62.png>)
 
 Maksud dari “d/M/yyyy” merupakan representasi tanggal/bulan/tahun dalam angka, misal jika tanggal 1 Januari 2010, maka input harus 1/1/2010 dan seterusnya. Klik tombol OK untuk mengkonfirmasi perubahan.
 
 **6. Menambah Tombol ke Form**
 
 Setelah menambahkan input Form, sekarang saatnya kita menambah tombol ke dalam Form. Caranya dengan mengklik dan drag komponen Button pada Palette ke dalam Form.
-![Alt text](image-63.png)
+
+![image](<./assets/image-63.png>)
 
 Tambahkan 3 buah tombol, Tambah, Ubah dan Hapus. Untuk mengubah teks tombolnya caranya sama seperti Label, yaitu dengan mengubah atribut Text pada Properties. Jangan lupa untuk mengubah nama variabel Tabel yang tadi kita masukkan ke Form, caranya klik kanan Tabel nya lalu pilih Change Variabel Name, misal dengan nama tabelMahasiswa.
-![Alt text](image-64.png)
+
+![image](<./assets/image-64.png>)
 
 Sekarang saatnya mengubah kolom pada Tabel. Berbeda dengan komponen lain, untuk mengubah kolom pada komponen Tabel, kita memerlukan kelas lain, namanya kelas DefaultTableModel, sehingga kita perlu melakukan pengkodean, caranya masuk ke bagian Source.
-![Alt text](image-65.png)
+
+![image](<./assets/image-65.png>)
 
 Setelah itu tambahkan sebuah variabel DefaultTableModel pada kelas Form tersebut.
-![Alt text](image-66.png)
+
+![image](<./assets/image-66.png>)
 
 Untuk menambahkan kolom ke Tabel, maka kita dapat menggunakan metode addColumn(nama) milik kelas DefaultTableModel. Dan saat ini kita perlu menambahkan kolom Nim, Nama, Tanggal Lahir, Jurusan dan Alamat.
-![Alt text](image-67.png)
+
+![image](<./assets/image-67.png>)
 
 **7. Menambahkan Aksi**
 
@@ -667,12 +720,14 @@ public void loadData(){
 }
 ```
 Agar metode loadData() dipanggil ketika program berjalan, maka kita perlu memanggil metode loadData() dalam konstruktor Form.
-![Alt text](image-68.png)
+
+![image](<./assets/image-68.png>)
 
 **9. Menambah Aksi Tombol Tambah**
 
 Sekarang saatnya kita menambahkan aksi tombol, dimana aksi tombol itu akan berjalan ketika tombol Tambah diklik. Untuk menambah sebuah aksi ke tombol Tambah, pertama kita masuk lagi ke bagian Design, setelah itu tinggal klik kanan tombol Tambah−nya setelah itu pilih menu Events -> Action -> actionPerfor ed, maka otomatis NetBeans IDE akan membuatkan sebuah metode baru untuk aksi tombol Tambah.
-![Alt text](image-69.png)
+
+![image](<./assets/image-69.png>)
 
 Dalam metode tersebutlah kita melakukan proses penambahan data ke dalam database. Untuk menambahkan data ke dalam tabel MAHASIWA, otomatis kita memerlukan data input dari pengguna. Untuk mendapatkan data tulisan dari Text Field dan Text Area, maka kita dapat menggunakan metode getText(), sedangkan untuk mendapatkan tanggal dari Formatted Field, kita dapat menggunakan metode getValue(), namun dikarenakan getValue() menghasilkan Object, maka
 kita perlu mengkonversinya ke tanggal.
@@ -712,7 +767,8 @@ Pada blok finally, kita perlu memanggil metode loadData(), hal ini dilakukan aga
 Untuk aksi tombol Ubah, agak sedikit berbeda dengan aksi tombol Tambah, perbedaannya adalah pertama kita harus mendeteksi baris yang sedang diklik, setelah itu baru melakukan proses pengubahan data yang diklik dengan data baru yang ada dalam input Form.
 
 Untuk menambah aksi tombol Ubah caranya sama dengan tombol Tambah, tinggal klik kanan tombol Ubah lalu pilih Events -> Action -> actionPerformed.
-![Alt text](image-70.png)
+
+![image](<./assets/image-70.png>)
 
 Seperti yang telah ditulis sebelumnya, pertama kita harus mendapatkan baris yang terseleksi pada Table, jika tidak ada baris yang terseel ksi, maka proses Ubah dibatalkan. Untuk mendapatkan baris yang terseleksi kita dapat menggunakan metode getSelectedRow() milik Table, jika return−nya −1 artinya tidak ada baris yang terseleksi.
 ```java
@@ -761,7 +817,8 @@ try{
 **11. Menambah Aksi Tombol Hapus**
 
 Untuk aksi hapus, kita tidak perlu menggunakan input Form, yang kita perlukan hanyalah baris yang terseleksi. Jika baris tidak ada yang terseleksi, maka proses penghapusan dibatalkan. Untuk menambah aksi pada tombol Hapus caranya sama seperti tombol Tambah dan Ubah, klik kanan tombol Hapus, lalu pilih menuEvents -> Action -> actionPerformed.
-![Alt text](image-71.png)
+
+![image](<./assets/image-71.png>)
 
 Setelah itu sama seperti pada proses Ubah, kita cek dulu apakah ada baris yang terseleksi atau tidak, jika ada ambil nim yang terseleksi, jika tidak ada, maka batalkan proses Hapus.
 ```java
@@ -795,7 +852,8 @@ try{
 **12. Menambahkan Aksi Baris Terseleksi**
 
 Aksi terakhir yang perlu kita tambahkan adalah aksi ketika baris Table terseleksi, misal jika baris pertama terseleksi, maka program akan menampilkan data yang terseleksi tersebut pada Form. Hal ini agar pengubahan lebih mudah, karena kita tidak perlu memasukkan seluruh datanya lagi. Untuk menambahkan aksi ketika baris terseleksi, kita dapat menggunakan aksi Mouse Click, yaitu aksi yang dijalankan ketika mouse mengklik. Caranya, klik kanan componen Table pada Form, setelah itu pilih Events -> ouse ->MouseClicked. Sekarang akan terbuat sebuah metode baru yang akan dipanggil ketika Table diklik.
-![Alt text](image-72.png)
+
+![image](<./assets/image-72.png>)
 
 Pertama yang harus dilakukan adalah melakukan pengecekah apakah ada baris yang terseleksi jika ada maka ambil data yang terseleksi dari DefaultTableModel setelah itu tampilkan pada Form, namun jika tidak ada baris yang terseleksi, maka batalkan proses.
 ```java
@@ -818,19 +876,24 @@ inputAlamat.setText(alamat);
 **13. Run Program**
 
 Setelah pembuatan program telah selesai, saatnya menjalankan aplikasi. Untuk menjalankan aplikasi, pertama kita harus menentukan dahulu kelas yang akan digunakan sebagai program, dimana pada project yang telah kita buat, kelas program adalah kelas Form. Untuk mengubah kelas program menjadi kelas Form, maka kita dapat mengubahnya dengan cara klik kanan Project yang telah kita buat, lalu pilih menu Properties, setelah itu akan keluar dialog Project Properties.
-![Alt text](image-73.png)
+
+![image](<./assets/image-73.png>)
 
 Pada bagian Categories, pilihlah menu Run, untuk mengubah kelas yang akan dijalankan sebagai kelas Program.
-![Alt text](image-74.png)
+
+![image](<./assets/image-74.png>)
 
 Pada input Main Class, klik tombol Browse, untuk menampilkan daftar kelas yang dapat dijadikan sebagai kelas program. Maka akan keluar dialog pemilihan kelas.
-![Alt text](image-75.png)
+
+![image](<./assets/image-75.png>)
 
 Pilih kelas Form yang telah dibuat tadi, setelah itu klik tombol Select Main Class. Untuk mengkonfirmasi perubahan, klik tombol OK. Sekarang kelas Form akan menjadi kelas yang dijalankan jika Project dijalankan.
 
 Untuk menjalankan aplikasi, klik kanan project yang telah kita buat, setelah itu pilih menu Run, maka otomatis program akan berjalan. Pada komputer saya, program terlihat seperti pada gambar dibawah ini.
-![Alt text](image-76.png)
+
+![image](<./assets/image-76.png>)
 
 Sekarang, kita dapat menambah data, mengubah data dan menghapus data yang telah kita masukkan.
-![Alt text](image-77.png)
+
+![image](<./assets/image-77.png>)
 
